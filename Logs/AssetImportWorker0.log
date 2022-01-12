@@ -1,0 +1,562 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'de' Physical Memory: 32703 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Malte Kleimann/Documents/GitHub/RPGMultiplayerFun
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61925
+Successfully changed project path to: C:/Users/Malte Kleimann/Documents/GitHub/RPGMultiplayerFun
+C:/Users/Malte Kleimann/Documents/GitHub/RPGMultiplayerFun
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Malte Kleimann/Documents/GitHub/RPGMultiplayerFun/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001570 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (481ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Domain Reload Profiling:
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.847900 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.547300 ms  DeleteObjects: 0.053400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/graphics
+  artifactKey: Guid(7fb3dd9b9c07f4841881f64ef0b4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics using Guid(7fb3dd9b9c07f4841881f64ef0b4101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b20e410f000e6a889c2bf1972e9838') in 0.023380 seconds 
+  Import took 0.026204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.177258 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.020959 seconds 
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.690886 seconds.
+  path: Assets/graphics/player Images
+  artifactKey: Guid(4f343e20d6d97114a8961b9abe5a70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images using Guid(4f343e20d6d97114a8961b9abe5a70a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f6784fb9d3569c11ae9b9012b1872') in 0.021038 seconds 
+  Import took 0.024003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.857469 seconds.
+  path: Assets/graphics/player Images/Woodcutter.png
+  artifactKey: Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter.png using Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71af210715d13dd51e102338e2ecd264') in 0.141556 seconds 
+  Import took 0.144544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/graphics/player Images/Woodcutter_climb.png
+  artifactKey: Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_climb.png using Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07839e45624f016727d659394c63e13') in 0.031060 seconds 
+  Import took 0.033815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack3.png
+  artifactKey: Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack3.png using Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd4326014890b7f684f848bf6665277') in 0.035211 seconds 
+  Import took 0.037885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/graphics/player Images/Woodcutter_push.png
+  artifactKey: Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_push.png using Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2affae27564d4a9ea9e67b4b041b42') in 0.025437 seconds 
+  Import took 0.028248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/graphics/player Images/Woodcutter_hurt.png
+  artifactKey: Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_hurt.png using Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66375984fadfb5cacaa8b9d07a883df6') in 0.026912 seconds 
+  Import took 0.029435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/graphics/player Images/Woodcutter_death.png
+  artifactKey: Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_death.png using Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a37ae53959d8fa7a3f15214ede0706') in 0.025553 seconds 
+  Import took 0.028168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/graphics/player Images/Woodcutter_jump.png
+  artifactKey: Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_jump.png using Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2986f551eab13d47817b7345eac36d72') in 0.026941 seconds 
+  Import took 0.029570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/graphics/player Images/Woodcutter_run.png
+  artifactKey: Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_run.png using Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deed5df9bfbf8899b84bce06e8ace545') in 0.025827 seconds 
+  Import took 0.028686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1.png
+  artifactKey: Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1.png using Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9603dcac7d276e050b6fcd88d38d04') in 0.025238 seconds 
+  Import took 0.027767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack2.png
+  artifactKey: Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack2.png using Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a7e52a2727f1f014777de437787123') in 0.026468 seconds 
+  Import took 0.029177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/graphics/player Images/Woodcutter_craft.png
+  artifactKey: Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_craft.png using Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddec64908e949a50643459f8367214c3') in 0.026405 seconds 
+  Import took 0.028999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/graphics/player Images/Woodcutter_walk.png
+  artifactKey: Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_walk.png using Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213ad252340372fa5944afbae272103b') in 0.025271 seconds 
+  Import took 0.027806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/graphics/player Images/Woodcutter_idle.png
+  artifactKey: Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_idle.png using Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eee74dcf09a7f702553026f708f114') in 0.026737 seconds 
+  Import took 0.029442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.354464 seconds.
+  path: Assets/graphics/player Images/Woodcutter.png
+  artifactKey: Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter.png using Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e99c98e4c0df7643e1ac881189fca38') in 0.069791 seconds 
+  Import took 0.072952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/graphics/player Images/Woodcutter_climb.png
+  artifactKey: Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_climb.png using Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc88f4f6ba7cbd695f135a017ecaf85') in 0.026156 seconds 
+  Import took 0.028997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack3.png
+  artifactKey: Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack3.png using Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8858cc7f07f0fbdce308d2430ecf2491') in 0.026165 seconds 
+  Import took 0.029261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/graphics/player Images/Woodcutter_push.png
+  artifactKey: Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_push.png using Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59da3b79e13d60d8cfe6ea90366eec59') in 0.026816 seconds 
+  Import took 0.029421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/graphics/player Images/Woodcutter_hurt.png
+  artifactKey: Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_hurt.png using Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e69b0a1a94614940ed40841f627aebe') in 0.027073 seconds 
+  Import took 0.029934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/graphics/player Images/Woodcutter_death.png
+  artifactKey: Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_death.png using Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28e76e85d860b0a8c197af830049bf') in 0.025745 seconds 
+  Import took 0.028839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/graphics/player Images/Woodcutter_jump.png
+  artifactKey: Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_jump.png using Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6110781b8073bac3e08472fbb574a4ae') in 0.026128 seconds 
+  Import took 0.029428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/graphics/player Images/Woodcutter_run.png
+  artifactKey: Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_run.png using Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cb0ff28bf5079ee04cc2309ba1f790') in 0.025660 seconds 
+  Import took 0.028330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1.png
+  artifactKey: Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1.png using Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f582dcab2dcf8a6161fc9396a055717') in 0.027169 seconds 
+  Import took 0.029815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack2.png
+  artifactKey: Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack2.png using Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738cbe97c80759d36afa48f78a25fea0') in 0.027296 seconds 
+  Import took 0.030020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/graphics/player Images/Woodcutter_craft.png
+  artifactKey: Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_craft.png using Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb09c6963f912dec4a8885ab72ed0eb') in 0.027106 seconds 
+  Import took 0.030043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/graphics/player Images/Woodcutter_walk.png
+  artifactKey: Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_walk.png using Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c3635ebd28f86f050f50f5710d537') in 0.025903 seconds 
+  Import took 0.029002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/graphics/player Images/Woodcutter_idle.png
+  artifactKey: Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_idle.png using Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf3bb22b5a001e16845c3c361e2af81') in 0.027850 seconds 
+  Import took 0.030611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.053273 seconds.
+  path: Assets/graphics/player Images/Woodcutter_idle.png
+  artifactKey: Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_idle.png using Guid(1ef5fd5284f0db143af7dc20729de3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da3f0f53168b576d636d29bc3d3ce3a') in 0.041459 seconds 
+  Import took 0.044780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/graphics/player Images/Woodcutter_climb.png
+  artifactKey: Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_climb.png using Guid(073b347fea0dd904d81887e00071372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b8b69b8540cf6997ded9497f58b2f7') in 0.025872 seconds 
+  Import took 0.028462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack3.png
+  artifactKey: Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack3.png using Guid(43e877d950bc54344a9950450bfd78d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e583b226a66727349b9bf62e6333b1') in 0.029855 seconds 
+  Import took 0.032423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/graphics/player Images/Woodcutter_push.png
+  artifactKey: Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_push.png using Guid(738980deb71c4a949b7228b2849529d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ffabc834b9f405f01789b4c443d175') in 0.030322 seconds 
+  Import took 0.033304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/graphics/player Images/Woodcutter_hurt.png
+  artifactKey: Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_hurt.png using Guid(ba94569c621c8e841836db06e6bd36c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4f6255d1ab2e86ab4eafdb3e71156') in 0.030911 seconds 
+  Import took 0.033436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/graphics/player Images/Woodcutter_death.png
+  artifactKey: Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_death.png using Guid(729ff4803d321ad479c04b5ca8fa0632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a444be08598f94e93e56d1ef0aa765e6') in 0.030554 seconds 
+  Import took 0.033194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/graphics/player Images/Woodcutter_jump.png
+  artifactKey: Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_jump.png using Guid(db8add4232edc044dbe085af79239542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b414674b7148c07fd78407248c62f8ab') in 0.030199 seconds 
+  Import took 0.032854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/graphics/player Images/Woodcutter_run.png
+  artifactKey: Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_run.png using Guid(78ad864e98439a44ba03c4ebdce969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8875000c5012bd2ac2df946b6af083cd') in 0.030085 seconds 
+  Import took 0.032593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1.png
+  artifactKey: Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1.png using Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b00065f8c66d20020c7ad92949b24a') in 0.030845 seconds 
+  Import took 0.033424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack2.png
+  artifactKey: Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack2.png using Guid(4ba67228a698871498e18c5ae1cd1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071f9b02d1e9b071bdbafa8ff4bfc228') in 0.026391 seconds 
+  Import took 0.029177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/graphics/player Images/Woodcutter_craft.png
+  artifactKey: Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_craft.png using Guid(6d748f7436ba19749b8e300b8b8cc4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96a3f006dac548e8620f1e80f63e1ce') in 0.025376 seconds 
+  Import took 0.027908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/graphics/player Images/Woodcutter_walk.png
+  artifactKey: Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_walk.png using Guid(382ca5426a3b28843aae4bbef66c2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a97170c6c33b1682bc90d64f38c934e') in 0.025298 seconds 
+  Import took 0.028061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/graphics/player Images/Woodcutter.png
+  artifactKey: Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter.png using Guid(8e83b5a5895b5a34fbc06979717ae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9a7bbcaf9ee34afa095d940353c325') in 0.027287 seconds 
+  Import took 0.029862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.993738 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1.png
+  artifactKey: Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1.png using Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f876c9ae03a769512a0b3a42cec6a2c8') in 0.026321 seconds 
+  Import took 0.029500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.156505 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1.png
+  artifactKey: Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1.png using Guid(21d71d0cdb629ae46b4ed5a82cfba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f492fae9e3ba88ed75b381d414d4c93') in 0.054717 seconds 
+  Import took 0.057909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.601432 seconds.
+  path: Assets/graphics/player Images/Woodcutter_attack1_0.controller
+  artifactKey: Guid(ca6597d1ee5086345acf246a57ed1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Woodcutter_attack1_0.controller using Guid(ca6597d1ee5086345acf246a57ed1539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f19677d0177d92c0a28bb4fdf5007a') in 0.025226 seconds 
+  Import took 0.028325 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (812ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (669ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2183 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.704800 ms (FindLiveObjects: 0.169300 ms CreateObjectMapping: 0.051300 ms MarkObjects: 2.470200 ms  DeleteObjects: 0.013100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.437768 seconds.
+  path: Assets/graphics/player Images/Animation
+  artifactKey: Guid(12354376cbabe304abbeedbb043601b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/player Images/Animation using Guid(12354376cbabe304abbeedbb043601b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e557b9b4716ec6d65a7ce0f467a451e8') in 0.023386 seconds 
+  Import took 0.026146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.785109 seconds.
+  path: Assets/graphics/woodcutter/attack.anim
+  artifactKey: Guid(943f4ccf3004cd445ae93f71cc8b3639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graphics/woodcutter/attack.anim using Guid(943f4ccf3004cd445ae93f71cc8b3639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff6228288f2203048dabe69e5263b3b') in 0.029169 seconds 
+  Import took 0.032068 seconds .
+
