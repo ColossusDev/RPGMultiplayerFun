@@ -11641,3 +11641,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1108.828869 seconds.
+  path: Assets/Prefabs/Character/Woodcutter.prefab
+  artifactKey: Guid(19557c401e6501a408be4d8f06a2948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character/Woodcutter.prefab using Guid(19557c401e6501a408be4d8f06a2948d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88387b5fee54470436d53ec9639f3f30') in 0.155411 seconds 
+  Import took 0.160851 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
